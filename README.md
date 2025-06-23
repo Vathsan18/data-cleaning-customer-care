@@ -1,60 +1,41 @@
-Customer Care Data Cleaning Project
-Welcome to the Customer Care Data Cleaning Project! This repository contains a comprehensive workflow for cleaning and preprocessing a customer care dataset to ensure high-quality and reliable data for further analysis or modeling.
+# Customer Care Data Cleaning Project
 
-📂 Project Overview
-The primary objective of this project is to clean and prepare a customer care dataset by performing various data cleaning operations, including handling duplicates, correcting field values, restructuring data formats, encoding categorical variables, and removing outliers. Additionally, the project involves importing and visualizing an employee dataset.
+Welcome to the **Customer Care Data Cleaning Project**!  
+This repository contains a comprehensive workflow for cleaning and preprocessing a customer care dataset to ensure high-quality and reliable data for further analysis or modeling.
 
-🛠️ Steps Performed
-Importing the Dataset
+---
 
-Loaded the customer care dataset into the workspace for processing.
+## 📂 Project Overview
 
-Removing Duplicate Records
+The primary objective of this project is to clean and prepare a customer care dataset by performing various data cleaning operations, including:
 
-Identified and deleted duplicate rows to ensure data integrity.
+- Handling duplicates  
+- Correcting field values  
+- Restructuring data formats  
+- Encoding categorical variables  
+- Removing outliers  
 
-Dropping Needless Columns
+Additionally, the project includes importing and visualizing an employee dataset.
 
-Removed irrelevant or unnecessary columns to focus on essential features.
+---
 
-Correcting Last Name Field
+## 🛠️ Steps Performed
 
-Cleaned the last_name field by removing unnecessary characters and standardizing values.
+1. **Importing the Dataset**  
+2. **Removing Duplicate Records**  
+3. **Dropping Needless Columns**  
+4. **Correcting Last Name Field**  
+5. **Restructuring Phone Numbers**  
+6. **Numerical Encoding**  
+7. **Importing Employee Dataset**  
+8. **Data Visualization**  
+9. **Outlier Detection**  
+10. **Dropping Outliers**
 
-Restructuring Phone Numbers
+---
 
-Reformatted the phone_number field to a consistent and desired format for easier analysis.
+## 📊 Technologies Used
 
-Numerical Encoding
-
-Encoded the categorical fields:
-
-paying_customer
-
-do_not_contact
-
-Converted these fields into numerical values for compatibility with machine learning algorithms.
-
-Importing Employee Dataset
-
-Loaded an additional employee dataset for further analysis and cross-referencing.
-
-Data Visualization
-
-Visualized the dataset using boxplots to understand the distribution of numerical features.
-
-Outlier Detection
-
-Identified outliers using statistical methods and boxplot visualization.
-
-Dropping Outliers
-
-Removed outlier records to ensure a clean and robust dataset.
-
-📊 Technologies Used
-Python 3.x (jupyter notebook)
-
-Pandas for data manipulation
-
-Matplotlib for data visualization
-
+- **Python 3.x** (Jupyter Notebook)  
+- **Pandas** for data manipulation  
+- **Matplotlib** for data visualization
